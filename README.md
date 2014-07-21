@@ -29,12 +29,7 @@ The prebuilt image is the [main.hex](prebuilt/main.hex) file provided.
 - click on the Apply button;
 - on Flash section of the Memories tab, select the [main.hex](prebuilt/main.hex) file;
 - click on the Program button of the Flash section and check if the operation succeeded;
-- on the Fuses tab, enter the following values to the fuse registers:
-Fuse Register | Value
---------------|------
-EXTENDED      | 0xFD
-HIGH          | 0xDF
-LOW           | 0xFF
+- on the Fuses tab, enter the following values to the fuse registers: Extended = 0xFD, High = 0xDF, Low = 0xFF;
 - click on the Program button and check if the operation succeeded.
 
 ### Programming on Linux and Mac OS X
@@ -47,7 +42,7 @@ LOW           | 0xFF
 
 ## Compiling the firmware
 
-You may want to compile the firmware from the source code instead of using the provided firmware image. The firmware source code is written in C. You can use and modify the firmware source code under the firmware licence (GPL).
+You may want to compile the firmware from the source code instead of using the provided firmware image. The firmware source code is written in C. You can use and modify the firmware source code under the terms of the firmware licence (GPL).
 
 ### Compiling on Windows
 
