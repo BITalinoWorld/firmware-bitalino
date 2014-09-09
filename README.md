@@ -15,7 +15,7 @@ ISP pin | BITalino pin
   RESET |    RST
   GND   |    AGND
 
-The prebuilt image is the [main.hex](prebuilt/main.hex) file provided.
+The prebuilt image is the [main.hex](https://raw.githubusercontent.com/BITalinoWorld/firmware-bitalino/master/prebuilt/main.hex) file provided.
 
 ### Programming on Windows
 
